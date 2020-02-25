@@ -61,7 +61,12 @@ export default class Login extends Component {
               <CssBaseline />
               <Grid container className="grid">
                 <Grid item xs>
-                  <Paper className="paper">
+                  <Paper className="paper"  style={{
+                      height: "300px",
+                      width: "400px",
+                      backgroundPosition: "center",
+                      justify: "center"
+                    }}>
                     <br />
                     <div className="avatar">
                       <Avatar className="icon"></Avatar>
