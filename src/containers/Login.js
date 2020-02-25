@@ -37,7 +37,7 @@ export default class Login extends Component {
   handleSubmit = async event => {
     event.preventDefault();
     if (
-      this.state.email === "theinthtethtetaung99@gmail.com" &&
+      this.state.email === "thhaung99@gmail.com" &&
       this.state.password === "theinthh"
     ) {
       this.props.history.push('/years')
@@ -62,8 +62,8 @@ export default class Login extends Component {
               <Grid container className="grid">
                 <Grid item xs>
                   <Paper className="paper"  style={{
-                      height: "300px",
-                      width: "400px",
+                      height: "350px",
+                      width: "380px",
                       backgroundPosition: "center",
                       justify: "center"
                     }}>
