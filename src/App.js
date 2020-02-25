@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter, Switch, withRouter} from "react-router-dom";
+import { Route, BrowserRouter, Switch, withRouter } from "react-router-dom";
 import Login from "./containers/Login";
 import Years from "./containers/Years";
 import StudentInfo from "./containers/StudentInfo";
@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
+          withRouter
           <Route exact path="/login" component={Login} />
           <Route exact path="/" component={Login} />
           <Route exact path="/years" component={Years} />
@@ -25,4 +26,5 @@ class App extends Component {
     );
   }
 }
+
 export default withRouter(App);
