@@ -1,0 +1,76 @@
+@media only screen and (min-width: 980px) and (max-width: 900px) {
+  .textField {
+    border-radius: 45px;
+    background-color: #971de9;
+    color: green;
+  }
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
+  .login {
+    padding-top: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 11px;
+    margin-left: 2px;
+  }
+  .main {
+    width: "auto";
+    padding: 10px 430px 10px 420px;
+    display: "block";
+    margin-left: "theme.spacing.unit * 3";
+    margin-right: "theme.spacing.unit * 3";
+  }
+  .paper {
+    padding: 10px 25px 25px 25px;
+    display: "flex";
+    flex-direction: "column";
+    align-items: "center";
+    justify-content: "center";
+    margin-left: "theme.spacing.unit * 3";
+    margin-right: "theme.spacing.unit * 3";
+  }
+  .form {
+    width: 98%;
+    margin-top: "theme.spacing.unit";
+    justify-content: "center";
+  }
+  .submit {
+    margin-top: "theme.spacing.unit * 3";
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1300px) {
+  .login {
+    padding: 30px 320px 0px 320px;
+    text-align: center;
+  }
+}
+
+.text1 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 26px;
+}
+.input1 {
+  width: 100px;
+  height: 100px;
+}
+.submit1 {
+  margin-top: "theme.spacing.unit * 3";
+}
+
+.icon {
+  background-color: "theme.palette.secondary.main";
+}
+.avatar {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+}
+.Col {
+  float: 1;
+  margin-right: 1em;
+}
